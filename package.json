@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --experimental-modules --no-warnings ./tests/capitalize.test.js"
   },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Luce62006/Tests.git"
@@ -16,4 +18,6 @@
     "url": "https://github.com/Luce62006/Tests/issues"
   },
   "homepage": "https://github.com/Luce62006/Tests#readme"
+  
 }
+
